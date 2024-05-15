@@ -7,8 +7,8 @@ import avadain from "@/assets/avadain.png";
 export default function About() {
   return (
     <div id="about">
-      <div className="sm:grid sm:grid-cols-2 sm:gap-4 mx-5 my-40 max-w-screen-xl lg:mx-24 2xl:mx-auto ">
-        <div className="mb-10 h-full">
+      <div className="sm:grid sm:grid-cols-2 sm:gap-4 md:gap-8 sm:items-center mx-5 my-40 max-w-screen-xl lg:mx-24 2xl:mx-auto ">
+        <div className="mb-10 sm:mb-0 h-full">
           <Image src={aboutImage} alt="about image" className="" />
         </div>
 
@@ -61,16 +61,16 @@ export default function About() {
             </li>
           </ul>
         </div>
-        <div className="flex gap-4 mt-20">
-          <div>
-            <Image src={atombeam} alt="atombeam logo" />
-          </div>
-          <div>
-            <Image src={boxabl} alt="boxabl logo" />
-          </div>
-          <div>
-            <Image src={avadain} alt="avadain logo" />
-          </div>
+      </div>
+      <div className="flex gap-4 md:gap-10 mx-5 my-40 max-w-screen-xl lg:mx-24 2xl:mx-auto">
+        <div className="md:w-[300px]">
+          <Image src={atombeam} alt="atombeam logo" />
+        </div>
+        <div className="md:w-[300px]">
+          <Image src={boxabl} alt="boxabl logo" />
+        </div>
+        <div className="md:w-[300px]">
+          <Image src={avadain} alt="avadain logo" />
         </div>
       </div>
     </div>
