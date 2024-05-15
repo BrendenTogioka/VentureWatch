@@ -38,20 +38,20 @@ export default function Home() {
       </div>
 
       <div id="stats">
-        <div className="grid gap-10 sm:grid-cols-3 mx-auto mt-10 mb-20 max-w-screen-xl sm:mx-auto md:mb-20 md:w-5/6 lg:w-4/6">
-          <div className="flex flex-col justify-center text-center">
+        <div className="grid gap-6 sm:grid-cols-3 mx-5 mt-10 mb-20 max-w-screen-xl md:mx-auto md:mb-20 md:w-5/6 lg:w-4/6">
+          <div className="flex flex-col justify-center text-center rounded-md overflow-hidden border-slate-700 border py-6 drop-shadow-xl">
             <h3 className="text-3xl sm:text-2xl  font-black uppercase text-cyan-400">
               $10M+ Raised
             </h3>
             <p>For Clients</p>
           </div>
-          <div className="flex flex-col justify-center text-center">
+          <div className="flex flex-col justify-center text-center rounded-md overflow-hidden border-slate-700 border py-6 drop-shadow-xl">
             <h3 className="text-3xl sm:text-2xl  font-black uppercase text-cyan-400">
               60+ Sections
             </h3>
             <p>With Tips & Tricks</p>
           </div>
-          <div className="flex flex-col justify-center text-center">
+          <div className="flex flex-col justify-center text-center rounded-md overflow-hidden border-slate-700 border py-6 drop-shadow-xl">
             <h3 className="text-3xl sm:text-2xl  font-black uppercase text-cyan-400">
               20+ Hours
             </h3>
